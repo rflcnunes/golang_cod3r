@@ -1,8 +1,8 @@
-package main
+package first
 
 import "fmt"
 
-func main() {
+func Setup() {
 	fmt.Print("First ")
 	fmt.Print("Program!")
 }
