@@ -1,11 +1,15 @@
-package main
+package fundamentals
 
 import (
+	"fmt"
+
 	"github.com/rflcnunes/golang_cod3r/fundamentals/commands"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/first"
 )
 
-func main() {
+func Setup() {
+	fmt.Printf("Other program!")
+
 	first.Setup()
 	commands.Setup()
 }
