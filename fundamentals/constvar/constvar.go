@@ -25,4 +25,12 @@ func Constvar() {
 	)
 
 	fmt.Println(a, b, c, d)
+
+	var e, f = true, false
+
+	fmt.Println(e, f)
+
+	g, h, i := 2, false, "test"
+
+	fmt.Println(g, h, i)
 }
