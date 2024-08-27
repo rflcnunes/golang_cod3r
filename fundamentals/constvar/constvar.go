@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func Constvar() {
+func Setup() {
 	const PI float64 = 3.1415
 	var ray = 3.2 // (float64) type inferred from compiler
 

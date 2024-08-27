@@ -14,6 +14,6 @@ func Setup() {
 
 	first.Setup()
 	commands.Setup()
-	constvar.Constvar()
+	constvar.Setup()
 	prints.Setup()
 }
