@@ -231,4 +231,8 @@ func Setup() {
 
 	fmt.Println(temp)
 
+	// -------------------------------------------------------------
+
+	// Default values
+	DefaultValues()
 }
