@@ -5,6 +5,7 @@ import (
 
 	"github.com/rflcnunes/golang_cod3r/fundamentals/commands"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/constvar"
+	"github.com/rflcnunes/golang_cod3r/fundamentals/conversions"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/first"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/prints"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/types"
@@ -18,4 +19,5 @@ func Setup() {
 	constvar.Setup()
 	prints.Setup()
 	types.Setup()
+	conversions.Setup()
 }
