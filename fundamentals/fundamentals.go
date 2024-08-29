@@ -3,6 +3,7 @@ package fundamentals
 import (
 	"fmt"
 
+	"github.com/rflcnunes/golang_cod3r/fundamentals/arithmeticoperators"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/commands"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/constvar"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/conversions"
@@ -22,4 +23,5 @@ func Setup() {
 	types.Setup()
 	conversions.Setup()
 	functions.Setup()
+	arithmeticoperators.Setup()
 }
