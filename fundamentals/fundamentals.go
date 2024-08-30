@@ -14,6 +14,7 @@ import (
 	"github.com/rflcnunes/golang_cod3r/fundamentals/prints"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/relationaloperators"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/types"
+	"github.com/rflcnunes/golang_cod3r/fundamentals/unary"
 )
 
 func Setup() {
@@ -30,4 +31,5 @@ func Setup() {
 	assignment.Setup()
 	relationaloperators.Setup()
 	logics.Setup()
+	unary.Setup()
 }
