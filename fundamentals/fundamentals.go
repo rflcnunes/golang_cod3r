@@ -12,6 +12,7 @@ import (
 	"github.com/rflcnunes/golang_cod3r/fundamentals/functions"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/logics"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/noternary"
+	"github.com/rflcnunes/golang_cod3r/fundamentals/pointers"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/prints"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/relationaloperators"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/types"
@@ -34,4 +35,5 @@ func Setup() {
 	logics.Setup()
 	unary.Setup()
 	noternary.Setup()
+	pointers.Setup()
 }
