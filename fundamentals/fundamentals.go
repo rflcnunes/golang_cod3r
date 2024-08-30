@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rflcnunes/golang_cod3r/fundamentals/arithmeticoperators"
+	"github.com/rflcnunes/golang_cod3r/fundamentals/assignment"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/commands"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/constvar"
 	"github.com/rflcnunes/golang_cod3r/fundamentals/conversions"
@@ -24,4 +25,5 @@ func Setup() {
 	conversions.Setup()
 	functions.Setup()
 	arithmeticoperators.Setup()
+	assignment.Setup()
 }
