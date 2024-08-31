@@ -21,15 +21,15 @@ func gradeForConcept(grade float64) string {
 func Setup() {
 	fmt.Println("IF / ELSEIF")
 
-	grade := gradeForConcept(4)
+	grade := gradeForConcept(4.3)
 	fmt.Println(grade)
 
-	grade2 := gradeForConcept(8)
+	grade2 := gradeForConcept(8.6)
 	fmt.Println(grade2)
 
 	grade3 := gradeForConcept(10)
 	fmt.Println(grade3)
 
-	invalidGrande := gradeForConcept(15)
+	invalidGrande := gradeForConcept(15.7)
 	fmt.Println(invalidGrande)
 }
